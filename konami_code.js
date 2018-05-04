@@ -18,4 +18,8 @@ function init() {
       index = 0;
     }
   }
+  
+  const main = document.getElementById('main')
+ 
+  main.addEventListener('keydown', onKeyDownHandler)
 }
