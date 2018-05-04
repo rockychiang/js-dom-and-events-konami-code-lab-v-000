@@ -11,6 +11,8 @@ function init() {
       
       if (index === code.length) {
         alert("Congratulations! You Found the Secret Message!")
+        
+        index = 0;
       }
     }
   }
