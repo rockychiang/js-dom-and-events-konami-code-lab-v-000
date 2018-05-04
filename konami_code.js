@@ -19,7 +19,7 @@ function init() {
     }
   }
   
-  const main = document.getElementById('main')
+  const body = document.body
  
   body.addEventListener('keydown', onKeyDownHandler)
 }
