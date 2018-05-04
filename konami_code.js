@@ -10,7 +10,7 @@ function init() {
       index++;
       
       if (index === code.length) {
-        alert("Congratulations! You Found the Secret Message!")
+        alert("Congratulations! You Found the Secret Message!");
         
         index = 0;
       }
